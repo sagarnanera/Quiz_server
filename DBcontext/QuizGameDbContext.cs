@@ -28,7 +28,7 @@ public partial class QuizGameDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        //optionsBuilder.UseMySql("server=localhost;database=quiz_game_db;uid=root;pwd=Mysqlpassword", Microsoft.EntityFrameworkCore.ServerVersion.Parse("10.4.24-mariadb"));
+        //optionsBuilder.UseMySql("your connection string", Microsoft.EntityFrameworkCore.ServerVersion.Parse("10.4.24-mariadb"));
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
